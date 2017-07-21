@@ -1,0 +1,14 @@
+---
+title: "Movement of lithics by trampling: An experiment in the Madjedbebe sediments"
+publication: "Journal of Archaeological Science"
+date: "2017-02-06"
+---
+
+## Authors
+
+Marwick, Ben, Elspeth Hayes, Chris Clarkson and Richard Fullagar
+
+## Links
+
+- http://dx.doi.org/10.17605/OSF.IO/7A6H6
+- https://github.com/benmarwick/mjbtramp

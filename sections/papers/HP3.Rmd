@@ -1,0 +1,14 @@
+---
+title: "Host and viral traits predict zoonotic spillover from mammals"
+publication: "Nature"
+date: "2017-06-21"
+---
+
+## Authors
+
+Kevin J. Olival,	Parviez R. Hosseini,	Carlos Zambrana-Torrelio,	Noam Ross,	Tiffany L. Bogich	& Peter Daszak
+
+## Links
+
+- https://dx.doi.org/10.1038/nature22975
+- https://github.com/ecohealthalliance/HP3

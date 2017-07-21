@@ -1,0 +1,14 @@
+---
+title: "Adaptations to sea level change and transitions to agriculture at Khao Toh Chong rockshelter, Peninsular Thailand"
+publication: "Journal of Archaeological Science"
+date: "2016-11-16"
+---
+
+## Authors
+
+Marwick, B., Van Vlack, H.G., Conrad, C., Shoocongdej, R., Thongcharoenchaikit, C., Kwak, S.
+
+## Links
+
+- http://dx.doi.org/10.1016/j.jas.2016.10.010
+- https://github.com/benmarwick/ktc11

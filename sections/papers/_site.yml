@@ -1,0 +1,7 @@
+name: Reproducible-Papers
+output_dir: .
+navbar:
+  title: "Reproducible Papers"
+output:
+  html_document:
+    highlight: textmate

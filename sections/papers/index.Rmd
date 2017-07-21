@@ -1,0 +1,25 @@
+```{r, echo=FALSE, results='asis'}
+library(dplyr)
+library(purrr)
+library(rmarkdown)
+library(glue)
+library(lubridate)
+library(tools)
+
+files <- list.files(pattern = "Rmd$")
+files <- files[-which(files == "index.Rmd")]
+yml <- files %>%
+  map_df(yaml_front_matter) %>%
+  mutate(file_name = file_path_sans_ext(files)) %>%
+  arrange(desc(date)) %>%
+  mutate(year = year(date))
+
+for(i in yml$year %>% unique() %>% sort(d = TRUE)){
+  cat(glue("<h2>{i}</h2>"), sep = "\n")
+  cat("<ul>\n")
+  cat(yml %>% filter(year == i) %>% 
+        glue_data("<li><a href='{file_name}.html'>{title}</a> - <em>{publication}</em></li>"), sep = "\n")
+  cat("</ul>\n")
+  cat("\n")
+}
+```
